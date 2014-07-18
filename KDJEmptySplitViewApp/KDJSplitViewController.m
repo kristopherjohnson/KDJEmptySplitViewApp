@@ -19,6 +19,7 @@
 }
 
 - (BOOL)splitViewController:(UISplitViewController *)svc shouldHideViewController:(UIViewController *)vc inOrientation:(UIInterfaceOrientation)orientation {
+    // Change this to YES if you don't want to see the left-side table view
     return NO;
 }
 
