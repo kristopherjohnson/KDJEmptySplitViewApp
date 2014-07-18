@@ -1,4 +1,4 @@
-# KDJSplitViewApp
+# KDJEmptySplitViewApp
 
 This is the source to a simple iOS app that  displays an empty split view on iPad, and an empty table view on iPhone/iPod touch.
 
