@@ -8,13 +8,4 @@ This app is useful for creating launch images for other apps that use split view
 
 These screenshots could also be useful as design templates or documentation images.
 
-If you don't need to customize the appearance at all, then instead of building and running the app, you can download these pre-made images:
-
-
-- [iPad_Launch_Image_Landscape.png](https://github.com/kristopherjohnson/KDJEmptySplitViewApp/blob/master/KDJEmptySplitViewApp/Images.xcassets/LaunchImage.launchimage/iPad_Launch_Image_Landscape.png)
-- [iPad_Launch_Image_Landscape@2x.png](https://github.com/kristopherjohnson/KDJEmptySplitViewApp/master/KDJEmptySplitViewApp/Images.xcassets/LaunchImage.launchimage/iPad_Launch_Image_Landscape@2x.png)
-- [iPad_Launch_Image_Portrait.png](https://github.com/kristopherjohnson/KDJEmptySplitViewApp/master/KDJEmptySplitViewApp/Images.xcassets/LaunchImage.launchimage/iPad_Launch_Image_Portrait.png)
-- [iPad_Launch_Image_Portrait@2x.png](https://github.com/kristopherjohnson/KDJEmptySplitViewApp/master/KDJEmptySplitViewApp/Images.xcassets/LaunchImage.launchimage/iPad_Launch_Image_Portrait@2x.png)
-- [iPhone_Launch_Image_3.5inch@2x.png](https://github.com/kristopherjohnson/KDJEmptySplitViewApp/master/KDJEmptySplitViewApp/Images.xcassets/LaunchImage.launchimage/iPhone_Launch_Image_3.5inch@2x.png)
-- [iPhone_Launch_Image_4inch@2x.png](https://github.com/kristopherjohnson/KDJEmptySplitViewApp/master/KDJEmptySplitViewApp/Images.xcassets/LaunchImage.launchimage/iPhone_Launch_Image_4inch@2x.png)
-
+If you don't need to customize the appearance at all, then instead of building and running the app, you can copy the existing launch images from the app's [`Images.xcassets`](https://github.com/kristopherjohnson/KDJEmptySplitViewApp/tree/master/KDJEmptySplitViewApp/Images.xcassets/LaunchImage.launchimage) asset catalog.
