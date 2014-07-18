@@ -8,4 +8,6 @@ This app is useful for creating [launch images](https://developer.apple.com/libr
 
 These screenshots could also be useful as design templates or documentation images.
 
+As-is, the app displays empty controls with default iOS 7 appearance. You may want to customize the display with your own app's color scheme or graphical elements before taking screenshots.
+
 If you don't need to customize the appearance at all, then instead of building and running the app, you can copy the existing launch images from the app's [Images.xcassets](https://github.com/kristopherjohnson/KDJEmptySplitViewApp/tree/master/KDJEmptySplitViewApp/Images.xcassets/LaunchImage.launchimage) asset catalog.
