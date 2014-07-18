@@ -15,25 +15,9 @@
 		4E3E32DD1978D607009D0E88 /* KDJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E32DC1978D607009D0E88 /* KDJAppDelegate.m */; };
 		4E3E32E01978D607009D0E88 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E32DE1978D607009D0E88 /* Main_iPhone.storyboard */; };
 		4E3E32E31978D607009D0E88 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E32E11978D607009D0E88 /* Main_iPad.storyboard */; };
-		4E3E32E61978D607009D0E88 /* KDJMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E32E51978D607009D0E88 /* KDJMasterViewController.m */; };
-		4E3E32E91978D607009D0E88 /* KDJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E32E81978D607009D0E88 /* KDJDetailViewController.m */; };
 		4E3E32EB1978D607009D0E88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E32EA1978D607009D0E88 /* Images.xcassets */; };
-		4E3E32F21978D608009D0E88 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3E32F11978D608009D0E88 /* XCTest.framework */; };
-		4E3E32F31978D608009D0E88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3E32CC1978D607009D0E88 /* Foundation.framework */; };
-		4E3E32F41978D608009D0E88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3E32D01978D607009D0E88 /* UIKit.framework */; };
-		4E3E32FC1978D608009D0E88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E32FA1978D608009D0E88 /* InfoPlist.strings */; };
-		4E3E32FE1978D608009D0E88 /* KDJEmptySplitViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E32FD1978D608009D0E88 /* KDJEmptySplitViewAppTests.m */; };
+		4E3E330C1978D9D3009D0E88 /* KDJSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E330B1978D9D3009D0E88 /* KDJSplitViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4E3E32F51978D608009D0E88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4E3E32C11978D607009D0E88 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4E3E32C81978D607009D0E88;
-			remoteInfo = KDJEmptySplitViewApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4E3E32C91978D607009D0E88 /* KDJEmptySplitViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDJEmptySplitViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,16 +32,10 @@
 		4E3E32DC1978D607009D0E88 /* KDJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDJAppDelegate.m; sourceTree = "<group>"; };
 		4E3E32DF1978D607009D0E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		4E3E32E21978D607009D0E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		4E3E32E41978D607009D0E88 /* KDJMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDJMasterViewController.h; sourceTree = "<group>"; };
-		4E3E32E51978D607009D0E88 /* KDJMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDJMasterViewController.m; sourceTree = "<group>"; };
-		4E3E32E71978D607009D0E88 /* KDJDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDJDetailViewController.h; sourceTree = "<group>"; };
-		4E3E32E81978D607009D0E88 /* KDJDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDJDetailViewController.m; sourceTree = "<group>"; };
 		4E3E32EA1978D607009D0E88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4E3E32F01978D608009D0E88 /* KDJEmptySplitViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDJEmptySplitViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3E32F11978D608009D0E88 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4E3E32F91978D608009D0E88 /* KDJEmptySplitViewAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KDJEmptySplitViewAppTests-Info.plist"; sourceTree = "<group>"; };
-		4E3E32FB1978D608009D0E88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E3E32FD1978D608009D0E88 /* KDJEmptySplitViewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDJEmptySplitViewAppTests.m; sourceTree = "<group>"; };
+		4E3E330A1978D9D3009D0E88 /* KDJSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDJSplitViewController.h; sourceTree = "<group>"; };
+		4E3E330B1978D9D3009D0E88 /* KDJSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDJSplitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E3E32ED1978D608009D0E88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E3E32F21978D608009D0E88 /* XCTest.framework in Frameworks */,
-				4E3E32F41978D608009D0E88 /* UIKit.framework in Frameworks */,
-				4E3E32F31978D608009D0E88 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				4E3E32D21978D607009D0E88 /* KDJEmptySplitViewApp */,
-				4E3E32F71978D608009D0E88 /* KDJEmptySplitViewAppTests */,
 				4E3E32CB1978D607009D0E88 /* Frameworks */,
 				4E3E32CA1978D607009D0E88 /* Products */,
 			);
@@ -98,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				4E3E32C91978D607009D0E88 /* KDJEmptySplitViewApp.app */,
-				4E3E32F01978D608009D0E88 /* KDJEmptySplitViewAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,15 +83,13 @@
 		4E3E32D21978D607009D0E88 /* KDJEmptySplitViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				4E3E32EA1978D607009D0E88 /* Images.xcassets */,
 				4E3E32DB1978D607009D0E88 /* KDJAppDelegate.h */,
 				4E3E32DC1978D607009D0E88 /* KDJAppDelegate.m */,
-				4E3E32DE1978D607009D0E88 /* Main_iPhone.storyboard */,
+				4E3E330A1978D9D3009D0E88 /* KDJSplitViewController.h */,
+				4E3E330B1978D9D3009D0E88 /* KDJSplitViewController.m */,
 				4E3E32E11978D607009D0E88 /* Main_iPad.storyboard */,
-				4E3E32E41978D607009D0E88 /* KDJMasterViewController.h */,
-				4E3E32E51978D607009D0E88 /* KDJMasterViewController.m */,
-				4E3E32E71978D607009D0E88 /* KDJDetailViewController.h */,
-				4E3E32E81978D607009D0E88 /* KDJDetailViewController.m */,
-				4E3E32EA1978D607009D0E88 /* Images.xcassets */,
+				4E3E32DE1978D607009D0E88 /* Main_iPhone.storyboard */,
 				4E3E32D31978D607009D0E88 /* Supporting Files */,
 			);
 			path = KDJEmptySplitViewApp;
@@ -138,24 +102,6 @@
 				4E3E32D51978D607009D0E88 /* InfoPlist.strings */,
 				4E3E32D81978D607009D0E88 /* main.m */,
 				4E3E32DA1978D607009D0E88 /* KDJEmptySplitViewApp-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4E3E32F71978D608009D0E88 /* KDJEmptySplitViewAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E3E32FD1978D608009D0E88 /* KDJEmptySplitViewAppTests.m */,
-				4E3E32F81978D608009D0E88 /* Supporting Files */,
-			);
-			path = KDJEmptySplitViewAppTests;
-			sourceTree = "<group>";
-		};
-		4E3E32F81978D608009D0E88 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E3E32F91978D608009D0E88 /* KDJEmptySplitViewAppTests-Info.plist */,
-				4E3E32FA1978D608009D0E88 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,24 +126,6 @@
 			productReference = 4E3E32C91978D607009D0E88 /* KDJEmptySplitViewApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4E3E32EF1978D608009D0E88 /* KDJEmptySplitViewAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E3E33041978D608009D0E88 /* Build configuration list for PBXNativeTarget "KDJEmptySplitViewAppTests" */;
-			buildPhases = (
-				4E3E32EC1978D608009D0E88 /* Sources */,
-				4E3E32ED1978D608009D0E88 /* Frameworks */,
-				4E3E32EE1978D608009D0E88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4E3E32F61978D608009D0E88 /* PBXTargetDependency */,
-			);
-			name = KDJEmptySplitViewAppTests;
-			productName = KDJEmptySplitViewAppTests;
-			productReference = 4E3E32F01978D608009D0E88 /* KDJEmptySplitViewAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,11 +135,6 @@
 				CLASSPREFIX = KDJ;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Kristopher Johnson";
-				TargetAttributes = {
-					4E3E32EF1978D608009D0E88 = {
-						TestTargetID = 4E3E32C81978D607009D0E88;
-					};
-				};
 			};
 			buildConfigurationList = 4E3E32C41978D607009D0E88 /* Build configuration list for PBXProject "KDJEmptySplitViewApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -227,7 +150,6 @@
 			projectRoot = "";
 			targets = (
 				4E3E32C81978D607009D0E88 /* KDJEmptySplitViewApp */,
-				4E3E32EF1978D608009D0E88 /* KDJEmptySplitViewAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,14 +166,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E3E32EE1978D608009D0E88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E3E32FC1978D608009D0E88 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,28 +175,11 @@
 			files = (
 				4E3E32DD1978D607009D0E88 /* KDJAppDelegate.m in Sources */,
 				4E3E32D91978D607009D0E88 /* main.m in Sources */,
-				4E3E32E61978D607009D0E88 /* KDJMasterViewController.m in Sources */,
-				4E3E32E91978D607009D0E88 /* KDJDetailViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E3E32EC1978D608009D0E88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E3E32FE1978D608009D0E88 /* KDJEmptySplitViewAppTests.m in Sources */,
+				4E3E330C1978D9D3009D0E88 /* KDJSplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4E3E32F61978D608009D0E88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4E3E32C81978D607009D0E88 /* KDJEmptySplitViewApp */;
-			targetProxy = 4E3E32F51978D608009D0E88 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4E3E32D51978D607009D0E88 /* InfoPlist.strings */ = {
@@ -307,14 +204,6 @@
 				4E3E32E21978D607009D0E88 /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		4E3E32FA1978D608009D0E88 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E3E32FB1978D608009D0E88 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,46 +307,6 @@
 			};
 			name = Release;
 		};
-		4E3E33051978D608009D0E88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KDJEmptySplitViewApp.app/KDJEmptySplitViewApp";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KDJEmptySplitViewApp/KDJEmptySplitViewApp-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "KDJEmptySplitViewAppTests/KDJEmptySplitViewAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4E3E33061978D608009D0E88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KDJEmptySplitViewApp.app/KDJEmptySplitViewApp";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KDJEmptySplitViewApp/KDJEmptySplitViewApp-Prefix.pch";
-				INFOPLIST_FILE = "KDJEmptySplitViewAppTests/KDJEmptySplitViewAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -475,14 +324,6 @@
 			buildConfigurations = (
 				4E3E33021978D608009D0E88 /* Debug */,
 				4E3E33031978D608009D0E88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4E3E33041978D608009D0E88 /* Build configuration list for PBXNativeTarget "KDJEmptySplitViewAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4E3E33051978D608009D0E88 /* Debug */,
-				4E3E33061978D608009D0E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
